@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "brand": "Parachute",
+      "id": 1,
+      "name": "Coconut oil",
+      "price": "125",
+      "qty": 10,
+      "status": "Approved",
+      "total": 1200
+    },
+    {
+      "brand": "Parachute",
+      "id": 2,
+      "name": "Coconut oil",
+      "price": "230",
+      "qty": "10",
+      "status": "Missing",
+      "total": 2300
+    },
+    {
+      "brand": "Parachute",
+      "id": 3,
+      "name": "Coconut oil",
+      "price": "1250",
+      "qty": 10,
+      "status": "",
+      "total": 12500
+    },
+    {
+      "brand": "Parachute",
+      "id": 4,
+      "name": "Coconut oil",
+      "price": 120,
+      "qty": 10,
+      "status": "Missing-urgent",
+      "total": 1200
+    },
+    {
+      "brand": "Parachute",
+      "id": 5,
+      "name": "Coconut oil",
+      "price": 120,
+      "qty": 10,
+      "status": "Approved",
+      "total": 1200
+    }
+  ]
+}
