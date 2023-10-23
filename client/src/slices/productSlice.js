@@ -11,7 +11,7 @@ const initialState = {
 export const fetchProducts = createAsyncThunk(
   "product/fetchProducts",
   async () => {
-    const response = await axios.get("http://localhost:8000/products");
+    const response = await axios.get("https://products-7xnv.onrender.com/products");
     return response.data;
   }
 );
