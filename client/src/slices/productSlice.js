@@ -19,7 +19,7 @@ export const fetchProducts = createAsyncThunk(
 export const addProducts = createAsyncThunk(
   "product/addProduct",
   async (data) => {
-    const response = await axios.post("http://localhost:8000/products", {
+    const response = await axios.post("https://products-7xnv.onrender.com/products", {
       name: data.name,
       position: data.position,
     });
