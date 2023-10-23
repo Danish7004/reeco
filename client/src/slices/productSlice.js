@@ -32,7 +32,7 @@ export const updateProduct = createAsyncThunk(
   async ({payload , status}) => {
  console.log(status)
     const response = await axios.put(
-      `http://localhost:8000/products/${payload.id}`,
+      `https://products-7xnv.onrender.com/products/${payload.id}`,
       {
         brand: payload.brand,
         id: payload.id,
