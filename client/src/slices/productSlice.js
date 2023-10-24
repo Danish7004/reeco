@@ -69,9 +69,14 @@ const productSlice = createSlice({
     builder
       .addCase(fetchProducts.fulfilled, (state, action) => {
         state.data = action.payload;
+        state.loading = false;
+      })
+      .addCase(fetchProducts.pending, (state, action) => {
+        state.loading = true;
       })
       .addCase(fetchProducts.rejected, (state, action) => {
         state.error = "rejected";
+        state.loading = false;
       });
 
     builder.addCase(updateProduct.fulfilled, (state, action) => {
